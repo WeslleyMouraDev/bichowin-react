@@ -1,4 +1,5 @@
 import "../Styles/heroCta.css";
+import imagePaths from '../helpers/imagePaths';
 
 const Hero = () => {
     return (
@@ -9,7 +10,7 @@ const Hero = () => {
                 Clique Aqui e jogue na Banca Online!  <br />
                 (50% de Bônus no Primeiro Depósito)
             </a>
-            <img className="mascote" src="src\assets\mascote.jpg" alt="Mascote" width="40%" />
+            <img className="mascote" src={imagePaths.mascote} alt="Mascote" width="40%" />
         </section>
     );
 };
