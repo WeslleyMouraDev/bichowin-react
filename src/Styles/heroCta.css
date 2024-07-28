@@ -1,0 +1,36 @@
+.cta-hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 20%;
+  color: rgb(9, 255, 0);
+  font-weight: bold; /* Tornar o texto em negrito */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Adicionar sombra branca */
+  animation: blink 1s infinite; /* Animação de piscar */
+}
+.mascote {
+  border-radius: 50%; /* Para tornar a imagem circular */
+  display: block; /* Garantir que o arredondamento seja aplicado corretamente */
+  margin: 0 auto; /* Centralizar a imagem horizontalmente */
+  height: auto; /* Manter a proporção da imagem */
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8); /* Adicionar sombra branca */
+}
+
+@media screen and (max-width: 768px) {
+  .mascote {
+    width: 80%; /* Ajustar a largura da imagem para 100% */
+  }
+}
+
+/* Definindo a animação de piscar */
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

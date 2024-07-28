@@ -1,0 +1,121 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #17163b, #1f3e62);
+  color: #e0e0e0;
+}
+
+section {
+  padding: 20px;
+  margin: 2vw 20vw;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #444;
+  padding: 5px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  margin-top: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #555;
+  color: #e0e0e0;
+}
+
+button {
+  cursor: pointer;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #555;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.resultados-simulador {
+  margin-top: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+}
+
+.resultados-simulador p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.resultados-simulador .positivo {
+  color: rgb(0, 255, 0);
+}
+
+.resultados-simulador .negativo {
+  color: red;
+}
+
+.resultados-simulador .neutro {
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+
+  section {
+    margin: 2vw 2vw;
+  }
+}
