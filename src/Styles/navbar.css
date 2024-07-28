@@ -62,10 +62,6 @@ nav {
     opacity: 1;
   }
 
-  h3 {
-    display: none;
-  }
-
   .mascote-logo {
     width: 18%;
   }
@@ -79,7 +75,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 1.5rem;
     background-color: var(--mainColor);
     transition: 1s;
